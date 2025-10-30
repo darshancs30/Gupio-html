@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <button id="theme-toggle">Dark Mode</button>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>AIML enthusiast and full-stack developer, passionate about learning new technologies and becoming industry-ready. Great knowledge of computer fundamentals and AI tools. Participated in various Hackathons, Tech Competitons and programs. Volunteered multiple tech programs and continuously involved in industrial talk and summits.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>SQL, MongoDB, AWS</li>
+        <li>Operating Systems, DBMS, DSA</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>AI-Based Resume Builder</li>
+        <li>AI-Based Fake job offer detector</li>
+        <li>AIML based deepfake detection model</li>
+        <li>Real time chatting website</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p id="msg"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
